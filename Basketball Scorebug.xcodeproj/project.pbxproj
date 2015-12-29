@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		490577CC1B5B487A0025D346 /* AdobeHeitiStd-Regular.otf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 490577C91B5B477F0025D346 /* AdobeHeitiStd-Regular.otf */; };
+		4908DF481B8CCB860046221A /* Screen Shot 2015-08-25 at 12.11.43 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 4908DF471B8CCB860046221A /* Screen Shot 2015-08-25 at 12.11.43 PM.png */; };
+		49172ECA1B8CE2C700DA33FA /* black image.png in Resources */ = {isa = PBXBuildFile; fileRef = 49172EC91B8CE2C700DA33FA /* black image.png */; };
+		4925F9491B7674F000067971 /* Scoreboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 4925F9481B7674F000067971 /* Scoreboard.png */; };
+		49320EAB1BEEECA70085F96D /* opt_text.png in Resources */ = {isa = PBXBuildFile; fileRef = 49320EAA1BEEECA70085F96D /* opt_text.png */; };
+		494DF2BD1AFEE7F900D3B9E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 494DF2BC1AFEE7F900D3B9E0 /* AppDelegate.m */; };
+		494DF2BF1AFEE7F900D3B9E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 494DF2BE1AFEE7F900D3B9E0 /* main.m */; };
+		494DF2C11AFEE7F900D3B9E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494DF2C01AFEE7F900D3B9E0 /* Images.xcassets */; };
+		494DF2C41AFEE7F900D3B9E0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494DF2C21AFEE7F900D3B9E0 /* MainMenu.xib */; };
+		494DF2D01AFEE7FA00D3B9E0 /* Football_ScorebugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 494DF2CF1AFEE7FA00D3B9E0 /* Football_ScorebugTests.m */; };
+		4969DD6C1B8C9E650052BF76 /* Animation 1.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 4969DD6A1B8C9E650052BF76 /* Animation 1.m4v */; };
+		4969DD6D1B8C9E650052BF76 /* animation 2.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 4969DD6B1B8C9E650052BF76 /* animation 2.m4v */; };
+		4969DD6F1B8CA07B0052BF76 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4969DD6E1B8CA07B0052BF76 /* AVFoundation.framework */; };
+		4969DD711B8CA07F0052BF76 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4969DD701B8CA07F0052BF76 /* AVKit.framework */; };
+		498500721B532B8C00CC09A0 /* scoreboard_example.png in Resources */ = {isa = PBXBuildFile; fileRef = 498500701B532B8C00CC09A0 /* scoreboard_example.png */; };
+		498500731B532B8C00CC09A0 /* scorebug_template.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 498500711B532B8C00CC09A0 /* scorebug_template.jpg */; };
+		498500751B532FA800CC09A0 /* new replay graphic.001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 498500741B532FA800CC09A0 /* new replay graphic.001.jpg */; };
+		499AA6A51C32F9E5000723E7 /* bball_scorebug_opt_text.png in Resources */ = {isa = PBXBuildFile; fileRef = 499AA6A31C32F9E5000723E7 /* bball_scorebug_opt_text.png */; };
+		499AA6A61C32F9E5000723E7 /* bball_scorebug.png in Resources */ = {isa = PBXBuildFile; fileRef = 499AA6A41C32F9E5000723E7 /* bball_scorebug.png */; };
+		499AA6AC1C32FF49000723E7 /* timeout.001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 499AA6AB1C32FF49000723E7 /* timeout.001.jpg */; };
+		499AA6AE1C32FF50000723E7 /* foul.001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 499AA6AD1C32FF50000723E7 /* foul.001.jpg */; };
+		499AA6B01C33058F000723E7 /* d4032e1456af94ba in Resources */ = {isa = PBXBuildFile; fileRef = 499AA6AF1C33058F000723E7 /* d4032e1456af94ba */; };
+		49A708C21B758F43000379C7 /* Scorebug_Gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 49A708C11B758F43000379C7 /* Scorebug_Gradient.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		494DF2CA1AFEE7FA00D3B9E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 494DF2AE1AFEE7F900D3B9E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 494DF2B51AFEE7F900D3B9E0;
+			remoteInfo = "Football Scorebug";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		490577CB1B5B48690025D346 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Fonts;
+			dstSubfolderSpec = 7;
+			files = (
+				490577CC1B5B487A0025D346 /* AdobeHeitiStd-Regular.otf in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		490577C91B5B477F0025D346 /* AdobeHeitiStd-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AdobeHeitiStd-Regular.otf"; path = "../AdobeHeitiStd-Regular.otf"; sourceTree = "<group>"; };
+		4908DF471B8CCB860046221A /* Screen Shot 2015-08-25 at 12.11.43 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-08-25 at 12.11.43 PM.png"; sourceTree = "<group>"; };
+		49172EC91B8CE2C700DA33FA /* black image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black image.png"; sourceTree = "<group>"; };
+		4925F9481B7674F000067971 /* Scoreboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scoreboard.png; sourceTree = "<group>"; };
+		49320EAA1BEEECA70085F96D /* opt_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = opt_text.png; sourceTree = "<group>"; };
+		494DF2B61AFEE7F900D3B9E0 /* Basketball Scorebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Basketball Scorebug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		494DF2BA1AFEE7F900D3B9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494DF2BB1AFEE7F900D3B9E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		494DF2BC1AFEE7F900D3B9E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		494DF2BE1AFEE7F900D3B9E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		494DF2C01AFEE7F900D3B9E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		494DF2C31AFEE7F900D3B9E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		494DF2C91AFEE7FA00D3B9E0 /* Basketball Scorebug.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Basketball Scorebug.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		494DF2CE1AFEE7FA00D3B9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494DF2CF1AFEE7FA00D3B9E0 /* Football_ScorebugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Football_ScorebugTests.m; sourceTree = "<group>"; };
+		4969DD6A1B8C9E650052BF76 /* Animation 1.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Animation 1.m4v"; sourceTree = "<group>"; };
+		4969DD6B1B8C9E650052BF76 /* animation 2.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "animation 2.m4v"; sourceTree = "<group>"; };
+		4969DD6E1B8CA07B0052BF76 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4969DD701B8CA07F0052BF76 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		498500701B532B8C00CC09A0 /* scoreboard_example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scoreboard_example.png; path = "Football Scorebug/backgrounds/scoreboard_example.png"; sourceTree = "<group>"; };
+		498500711B532B8C00CC09A0 /* scorebug_template.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = scorebug_template.jpg; path = "Football Scorebug/backgrounds/scorebug_template.jpg"; sourceTree = "<group>"; };
+		498500741B532FA800CC09A0 /* new replay graphic.001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "new replay graphic.001.jpg"; sourceTree = "<group>"; };
+		4999666C1B785A090006AAA6 /* Football Scorebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Football Scorebug.entitlements"; sourceTree = "<group>"; };
+		499AA6A31C32F9E5000723E7 /* bball_scorebug_opt_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bball_scorebug_opt_text.png; sourceTree = "<group>"; };
+		499AA6A41C32F9E5000723E7 /* bball_scorebug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bball_scorebug.png; sourceTree = "<group>"; };
+		499AA6AB1C32FF49000723E7 /* timeout.001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = timeout.001.jpg; path = timeout/timeout.001.jpg; sourceTree = "<group>"; };
+		499AA6AD1C32FF50000723E7 /* foul.001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = foul.001.jpg; path = foul/foul.001.jpg; sourceTree = "<group>"; };
+		499AA6AF1C33058F000723E7 /* d4032e1456af94ba */ = {isa = PBXFileReference; lastKnownFileType = folder; path = d4032e1456af94ba; sourceTree = "<group>"; };
+		49A708C11B758F43000379C7 /* Scorebug_Gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scorebug_Gradient.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		494DF2B31AFEE7F900D3B9E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4969DD711B8CA07F0052BF76 /* AVKit.framework in Frameworks */,
+				4969DD6F1B8CA07B0052BF76 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494DF2C61AFEE7FA00D3B9E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		494DF2AD1AFEE7F900D3B9E0 = {
+			isa = PBXGroup;
+			children = (
+				4969DD701B8CA07F0052BF76 /* AVKit.framework */,
+				4969DD6E1B8CA07B0052BF76 /* AVFoundation.framework */,
+				490577C91B5B477F0025D346 /* AdobeHeitiStd-Regular.otf */,
+				498500701B532B8C00CC09A0 /* scoreboard_example.png */,
+				498500741B532FA800CC09A0 /* new replay graphic.001.jpg */,
+				498500711B532B8C00CC09A0 /* scorebug_template.jpg */,
+				4925F9481B7674F000067971 /* Scoreboard.png */,
+				49320EAA1BEEECA70085F96D /* opt_text.png */,
+				494DF2B81AFEE7F900D3B9E0 /* Football Scorebug */,
+				494DF2CC1AFEE7FA00D3B9E0 /* Football ScorebugTests */,
+				494DF2B71AFEE7F900D3B9E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		494DF2B71AFEE7F900D3B9E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				494DF2B61AFEE7F900D3B9E0 /* Basketball Scorebug.app */,
+				494DF2C91AFEE7FA00D3B9E0 /* Basketball Scorebug.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		494DF2B81AFEE7F900D3B9E0 /* Football Scorebug */ = {
+			isa = PBXGroup;
+			children = (
+				4999666C1B785A090006AAA6 /* Football Scorebug.entitlements */,
+				49A708C11B758F43000379C7 /* Scorebug_Gradient.png */,
+				494DF2BB1AFEE7F900D3B9E0 /* AppDelegate.h */,
+				494DF2BC1AFEE7F900D3B9E0 /* AppDelegate.m */,
+				49172EC91B8CE2C700DA33FA /* black image.png */,
+				4908DF471B8CCB860046221A /* Screen Shot 2015-08-25 at 12.11.43 PM.png */,
+				4969DD6A1B8C9E650052BF76 /* Animation 1.m4v */,
+				4969DD6B1B8C9E650052BF76 /* animation 2.m4v */,
+				494DF2C01AFEE7F900D3B9E0 /* Images.xcassets */,
+				499AA6AD1C32FF50000723E7 /* foul.001.jpg */,
+				499AA6AB1C32FF49000723E7 /* timeout.001.jpg */,
+				494DF2C21AFEE7F900D3B9E0 /* MainMenu.xib */,
+				499AA6AF1C33058F000723E7 /* d4032e1456af94ba */,
+				499AA6A31C32F9E5000723E7 /* bball_scorebug_opt_text.png */,
+				499AA6A41C32F9E5000723E7 /* bball_scorebug.png */,
+				494DF2B91AFEE7F900D3B9E0 /* Supporting Files */,
+			);
+			path = "Football Scorebug";
+			sourceTree = "<group>";
+		};
+		494DF2B91AFEE7F900D3B9E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				494DF2BA1AFEE7F900D3B9E0 /* Info.plist */,
+				494DF2BE1AFEE7F900D3B9E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		494DF2CC1AFEE7FA00D3B9E0 /* Football ScorebugTests */ = {
+			isa = PBXGroup;
+			children = (
+				494DF2CF1AFEE7FA00D3B9E0 /* Football_ScorebugTests.m */,
+				494DF2CD1AFEE7FA00D3B9E0 /* Supporting Files */,
+			);
+			path = "Football ScorebugTests";
+			sourceTree = "<group>";
+		};
+		494DF2CD1AFEE7FA00D3B9E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				494DF2CE1AFEE7FA00D3B9E0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		494DF2B51AFEE7F900D3B9E0 /* Basketball Scorebug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494DF2D31AFEE7FA00D3B9E0 /* Build configuration list for PBXNativeTarget "Basketball Scorebug" */;
+			buildPhases = (
+				494DF2B21AFEE7F900D3B9E0 /* Sources */,
+				494DF2B31AFEE7F900D3B9E0 /* Frameworks */,
+				494DF2B41AFEE7F900D3B9E0 /* Resources */,
+				490577CB1B5B48690025D346 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Basketball Scorebug";
+			productName = "Football Scorebug";
+			productReference = 494DF2B61AFEE7F900D3B9E0 /* Basketball Scorebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		494DF2C81AFEE7FA00D3B9E0 /* Basketball ScorebugTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494DF2D61AFEE7FA00D3B9E0 /* Build configuration list for PBXNativeTarget "Basketball ScorebugTests" */;
+			buildPhases = (
+				494DF2C51AFEE7FA00D3B9E0 /* Sources */,
+				494DF2C61AFEE7FA00D3B9E0 /* Frameworks */,
+				494DF2C71AFEE7FA00D3B9E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				494DF2CB1AFEE7FA00D3B9E0 /* PBXTargetDependency */,
+			);
+			name = "Basketball ScorebugTests";
+			productName = "Football ScorebugTests";
+			productReference = 494DF2C91AFEE7FA00D3B9E0 /* Basketball Scorebug.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		494DF2AE1AFEE7F900D3B9E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Andrew Shackelford";
+				TargetAttributes = {
+					494DF2B51AFEE7F900D3B9E0 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = HGZ47EU989;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					494DF2C81AFEE7FA00D3B9E0 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 494DF2B51AFEE7F900D3B9E0;
+					};
+				};
+			};
+			buildConfigurationList = 494DF2B11AFEE7F900D3B9E0 /* Build configuration list for PBXProject "Basketball Scorebug" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 494DF2AD1AFEE7F900D3B9E0;
+			productRefGroup = 494DF2B71AFEE7F900D3B9E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				494DF2B51AFEE7F900D3B9E0 /* Basketball Scorebug */,
+				494DF2C81AFEE7FA00D3B9E0 /* Basketball ScorebugTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		494DF2B41AFEE7F900D3B9E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498500721B532B8C00CC09A0 /* scoreboard_example.png in Resources */,
+				49172ECA1B8CE2C700DA33FA /* black image.png in Resources */,
+				4908DF481B8CCB860046221A /* Screen Shot 2015-08-25 at 12.11.43 PM.png in Resources */,
+				4969DD6C1B8C9E650052BF76 /* Animation 1.m4v in Resources */,
+				499AA6AC1C32FF49000723E7 /* timeout.001.jpg in Resources */,
+				498500751B532FA800CC09A0 /* new replay graphic.001.jpg in Resources */,
+				49320EAB1BEEECA70085F96D /* opt_text.png in Resources */,
+				494DF2C11AFEE7F900D3B9E0 /* Images.xcassets in Resources */,
+				4925F9491B7674F000067971 /* Scoreboard.png in Resources */,
+				499AA6AE1C32FF50000723E7 /* foul.001.jpg in Resources */,
+				49A708C21B758F43000379C7 /* Scorebug_Gradient.png in Resources */,
+				499AA6A61C32F9E5000723E7 /* bball_scorebug.png in Resources */,
+				499AA6B01C33058F000723E7 /* d4032e1456af94ba in Resources */,
+				499AA6A51C32F9E5000723E7 /* bball_scorebug_opt_text.png in Resources */,
+				494DF2C41AFEE7F900D3B9E0 /* MainMenu.xib in Resources */,
+				4969DD6D1B8C9E650052BF76 /* animation 2.m4v in Resources */,
+				498500731B532B8C00CC09A0 /* scorebug_template.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494DF2C71AFEE7FA00D3B9E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		494DF2B21AFEE7F900D3B9E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494DF2BF1AFEE7F900D3B9E0 /* main.m in Sources */,
+				494DF2BD1AFEE7F900D3B9E0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494DF2C51AFEE7FA00D3B9E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494DF2D01AFEE7FA00D3B9E0 /* Football_ScorebugTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		494DF2CB1AFEE7FA00D3B9E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 494DF2B51AFEE7F900D3B9E0 /* Basketball Scorebug */;
+			targetProxy = 494DF2CA1AFEE7FA00D3B9E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		494DF2C21AFEE7F900D3B9E0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494DF2C31AFEE7F900D3B9E0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		494DF2D11AFEE7FA00D3B9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.9;
+			};
+			name = Debug;
+		};
+		494DF2D21AFEE7FA00D3B9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx10.9;
+			};
+			name = Release;
+		};
+		494DF2D41AFEE7FA00D3B9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Football Scorebug/Football Scorebug.entitlements";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Football Scorebug/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "Basketball Scorebug";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx10.11;
+			};
+			name = Debug;
+		};
+		494DF2D51AFEE7FA00D3B9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Football Scorebug/Football Scorebug.entitlements";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Football Scorebug/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "Basketball Scorebug";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx10.11;
+			};
+			name = Release;
+		};
+		494DF2D71AFEE7FA00D3B9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Football ScorebugTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "Basketball Scorebug";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Basketball Scorebug.app/Contents/MacOS/Basketball Scorebug";
+			};
+			name = Debug;
+		};
+		494DF2D81AFEE7FA00D3B9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Football ScorebugTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "Basketball Scorebug";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Basketball Scorebug.app/Contents/MacOS/Basketball Scorebug";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		494DF2B11AFEE7F900D3B9E0 /* Build configuration list for PBXProject "Basketball Scorebug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494DF2D11AFEE7FA00D3B9E0 /* Debug */,
+				494DF2D21AFEE7FA00D3B9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494DF2D31AFEE7FA00D3B9E0 /* Build configuration list for PBXNativeTarget "Basketball Scorebug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494DF2D41AFEE7FA00D3B9E0 /* Debug */,
+				494DF2D51AFEE7FA00D3B9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494DF2D61AFEE7FA00D3B9E0 /* Build configuration list for PBXNativeTarget "Basketball ScorebugTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494DF2D71AFEE7FA00D3B9E0 /* Debug */,
+				494DF2D81AFEE7FA00D3B9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 494DF2AE1AFEE7F900D3B9E0 /* Project object */;
+}

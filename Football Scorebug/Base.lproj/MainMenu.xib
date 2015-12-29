@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9531" systemVersion="15A279b" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.AVKitIBPlugin" version="9531"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9531"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="Voe-Tx-rLC" id="GzC-gU-4Uq"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate">
+            <connections>
+                <outlet property="animationTwoView" destination="16O-9t-k3m" id="4mP-nl-ZAA"/>
+                <outlet property="animationView" destination="Jvl-Cd-dtw" id="rhg-85-pRd"/>
+                <outlet property="awayNameDisplay" destination="RgH-wS-gsl" id="cIp-Gs-hL2"/>
+                <outlet property="awayScoreControl" destination="Tt8-2y-ueA" id="NaZ-xA-J7u"/>
+                <outlet property="awayScoreDisplay" destination="Sn3-4c-B8R" id="6Aj-j9-9Lp"/>
+                <outlet property="awaySeed" destination="7rd-UB-CdE" id="1Pc-Zr-hqy"/>
+                <outlet property="clockButton" destination="c1x-UJ-wNf" id="lJo-3U-hnK"/>
+                <outlet property="clockControl" destination="kru-WF-Wc1" id="9Ww-Eu-VY2"/>
+                <outlet property="clockDisplay" destination="d2b-KT-3GH" id="LGx-Uv-Zsm"/>
+                <outlet property="clockShowingControl" destination="Sow-VF-ka7" id="9Y9-Oe-2Eh"/>
+                <outlet property="colorScorebug" destination="5AC-kc-lua" id="oY2-Y6-86b"/>
+                <outlet property="controlWindow" destination="QvC-M9-y7g" id="KCa-GY-qAH"/>
+                <outlet property="date" destination="jM2-IS-MUr" id="acO-d3-cCf"/>
+                <outlet property="displayFullScreenButton" destination="EU4-Zj-ang" id="690-iP-0Pd"/>
+                <outlet property="displayWindow" destination="MbN-zX-JXX" id="RtC-cw-4Ef"/>
+                <outlet property="flagButton" destination="C5C-b6-B99" id="ZHC-Ho-Q9l"/>
+                <outlet property="flagControl" destination="QSd-Iv-4yr" id="TQy-YK-uSg"/>
+                <outlet property="flagImage" destination="SkK-3N-VJu" id="2dk-S1-Ytf"/>
+                <outlet property="homeNameDisplay" destination="pjf-xE-qSS" id="JsH-ej-XQX"/>
+                <outlet property="homeScoreControl" destination="uv2-mo-f5h" id="qya-1z-csx"/>
+                <outlet property="homeScoreDisplay" destination="gyd-fI-Hc0" id="6zo-MQ-yzo"/>
+                <outlet property="homeSeed" destination="X3Y-DM-RB4" id="vEl-Bi-l2x"/>
+                <outlet property="location" destination="jJV-fj-6Ew" id="eNi-4p-PQQ"/>
+                <outlet property="locatorAwayName" destination="w9c-l0-rZa" id="VNz-P9-6qz"/>
+                <outlet property="locatorAwayScore" destination="bSJ-f5-qpO" id="N3Q-cC-jql"/>
+                <outlet property="locatorAwaySeed" destination="Yob-62-boV" id="lcv-hU-xmJ"/>
+                <outlet property="locatorHomeName" destination="GhB-69-ZB1" id="eZw-s1-OUw"/>
+                <outlet property="locatorHomeScore" destination="Zj7-XA-GHr" id="WbG-gz-ZTP"/>
+                <outlet property="locatorHomeSeed" destination="ubY-aG-Fqg" id="A5j-Rn-TLc"/>
+                <outlet property="locatorQuarter" destination="787-t7-dbp" id="yoc-g5-QtC"/>
+                <outlet property="locatorShowingControl" destination="U2T-6h-JRa" id="WlK-PK-DLh"/>
+                <outlet property="optText" destination="9G2-5d-H3e" id="hUD-x4-3eB"/>
+                <outlet property="optTextBackground" destination="55h-2X-VhE" id="9Cm-aw-xc3"/>
+                <outlet property="quarterControl" destination="McA-Ut-E7q" id="a8m-U9-O40"/>
+                <outlet property="quarterDisplay" destination="tYJ-wf-Qyj" id="tAk-Iu-eZT"/>
+                <outlet property="replayButton" destination="F26-Cr-2SO" id="Nsf-8J-RaC"/>
+                <outlet property="replayControl" destination="ZPh-EL-WiV" id="7ez-hj-8Pf"/>
+                <outlet property="scoreboardBackground" destination="mLW-Tq-zWR" id="GBN-S9-lzY"/>
+                <outlet property="scoreboardShowingControl" destination="fZV-gi-omO" id="Uo7-4x-jsn"/>
+                <outlet property="scorebugBackground" destination="nip-Kn-Qyw" id="xz9-La-va3"/>
+                <outlet property="scorebugButton" destination="UU6-xV-2fN" id="iWy-vv-jcu"/>
+                <outlet property="scorebugShowingControl" destination="HGn-1P-nd9" id="d4r-0C-OjP"/>
+                <outlet property="showLocatorButton" destination="eQA-H8-fyC" id="DfR-Mj-sVc"/>
+                <outlet property="showScoreboardButton" destination="4xq-m9-z3d" id="1mz-36-gBE"/>
+                <outlet property="timeoutButton" destination="WqW-EM-aPU" id="IzO-oy-Tb4"/>
+                <outlet property="timeoutControl" destination="cMG-HQ-Ook" id="X8a-48-NBn"/>
+                <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
+            <items>
+                <menuItem title="Basketball Scorebug" id="1Xt-HY-uBw">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Basketball Scorebug" systemMenu="apple" id="uQy-DD-JDr">
+                        <items>
+                            <menuItem title="About Basketball Scorebug" id="5kV-Vb-QxS">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="makeKeyAndOrderFront:" target="FM9-HU-l6u" id="85a-ZX-dxX"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
+                            <menuItem title="Hide Basketball Scorebug" keyEquivalent="h" id="Olw-nP-bQN">
+                                <connections>
+                                    <action selector="hide:" target="-1" id="PnN-Uc-m68"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Hide Others" keyEquivalent="h" id="Vdr-fp-XzO">
+                                <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                <connections>
+                                    <action selector="hideOtherApplications:" target="-1" id="VT4-aY-XCT"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Show All" id="Kd2-mp-pUS">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="unhideAllApplications:" target="-1" id="Dhg-Le-xox"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
+                            <menuItem title="Quit Basketball Scorebug" keyEquivalent="q" id="4sb-4s-VLi">
+                                <connections>
+                                    <action selector="terminate:" target="-1" id="Te7-pn-YzF"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Action" id="6X1-DX-Rff">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Action" id="RJd-eT-nfE">
+                        <items>
+                            <menuItem title="Timeout" keyEquivalent="r" id="6iK-VJ-U8T">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="performClick:" target="WqW-EM-aPU" id="KTL-lN-zLs"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Foul" keyEquivalent="e" id="ZDM-Dt-KYM">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="performClick:" target="C5C-b6-B99" id="xLS-0k-Djf"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Away -1" keyEquivalent="a" id="V4A-tW-IaQ">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="performClick:" target="OlJ-bE-Mb0" id="J6T-TD-Q8r"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Away +1" keyEquivalent="s" id="ZPu-K8-PYV">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="performClick:" target="WBH-EY-lbg" id="vmw-iM-HgG"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Away +2" keyEquivalent="d" id="U2o-VT-HeF">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="performClick:" target="x1B-SU-aX4" id="XNg-aY-ps4"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Away +3" keyEquivalent="f" id="0Ci-lv-2Mw">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="performClick:" target="BVd-ps-mqk" id="gsg-w3-bFG"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Home +3" keyEquivalent="j" id="fkT-8C-hRK">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="performClick:" target="jHd-mK-vBC" id="aQg-NE-sGR"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Home +2" keyEquivalent="k" id="UHi-4S-7HE">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="performClick:" target="eQ2-Mz-LEZ" id="07k-J1-0Wb"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Home +1" keyEquivalent="l" id="NpS-B2-9qo">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="performClick:" target="hur-ON-A99" id="LQ6-98-iKZ"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Home -1" keyEquivalent=";" id="XbQ-ar-jj5">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="performClick:" target="1tl-4N-jYT" id="bLA-Xd-rzT"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Show Replay" keyEquivalent="g" id="dWp-au-65b">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="performClick:" target="F26-Cr-2SO" id="pun-hE-0WG"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Hide Clock" keyEquivalent="w" id="Ecg-Xu-oXz">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="performClick:" target="c1x-UJ-wNf" id="sLg-ks-vZZ"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Hide Scorebug" keyEquivalent="u" id="YG0-Ys-nn1">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="performClick:" target="UU6-xV-2fN" id="7um-92-wt2"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Show Scoreboard" keyEquivalent="i" id="i9x-Zd-POJ">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="performClick:" target="4xq-m9-z3d" id="IaC-sF-i2k"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Show Locator" keyEquivalent="o" id="VFw-Mx-Lrf">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="performClick:" target="eQA-H8-fyC" id="l8B-vU-sis"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="- QTR" keyEquivalent="z" id="nEJ-wH-ly1">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="performClick:" target="QtR-Mt-sSd" id="P84-3Z-l2G"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="+ QTR" keyEquivalent="x" id="Hgw-17-p35">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="performClick:" target="1KX-Zc-iL4" id="N9L-EL-mTo"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Reset Clock" keyEquivalent="c" id="EHc-6e-qhv">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="performClick:" target="iql-w0-n1F" id="qst-Ze-sBw"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="-10 Sec" keyEquivalent="v" id="WzU-6f-67V">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="performClick:" target="dXN-hI-B6c" id="Bf3-P9-E6P"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="-1 Sec" keyEquivalent="b" id="KEI-Bb-BIV">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="performClick:" target="23H-x4-ud2" id="3tg-He-fTN"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="+1 Sec" keyEquivalent="n" id="Nes-b9-Kcq">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="performClick:" target="Z2q-AN-sl1" id="JYA-IR-KAK"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="-10 Sec" keyEquivalent="m" id="79j-zI-EJh">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="performClick:" target="o1Q-Op-CPi" id="lnD-Wl-RTa"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Start/Stop Clock" keyEquivalent=" " id="S5P-Hx-hih">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="performClick:" target="BRW-g9-0xv" id="rLX-Wy-nwu"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="View" id="H8h-7b-M4v">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="View" id="HyV-fh-RgO">
+                        <items>
+                            <menuItem title="Enter Full Screen" id="9N7-nn-7sQ">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="enterFullScreen:" target="Voe-Tx-rLC" id="skl-Vj-2gp"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Window" id="aUF-d1-5bR">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Window" systemMenu="window" id="Td7-aD-5lo">
+                        <items>
+                            <menuItem title="Minimize" keyEquivalent="m" id="OY7-WF-poV">
+                                <connections>
+                                    <action selector="performMiniaturize:" target="-1" id="VwT-WD-YPe"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Zoom" id="R4o-n2-Eq4">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="performZoom:" target="-1" id="DIl-cC-cCs"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="eu3-7i-yIM"/>
+                            <menuItem title="Bring All to Front" id="LE2-aR-0XJ">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="arrangeInFront:" target="-1" id="DRN-fu-gQh"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Instructions" id="N8J-tR-Hgl">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Instructions" id="eUL-M1-USo">
+                        <items>
+                            <menuItem title="Set-up" id="uQ4-oW-caA">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="makeKeyAndOrderFront:" target="MNx-kr-MPe" id="dHq-lz-7Ot"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Operation" id="P79-SC-4H1">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="makeKeyAndOrderFront:" target="ltf-hQ-17a" id="Jy6-ji-X79"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+            </items>
+        </menu>
+        <window title="WCAT Basketball Scorebug - Control" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <rect key="contentRect" x="335" y="390" width="1152" height="720"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
+            <value key="minSize" type="size" width="1152" height="720"/>
+            <value key="maxSize" type="size" width="1152" height="720"/>
+            <view key="contentView" id="EiT-Mj-1SZ">
+                <rect key="frame" x="0.0" y="0.0" width="1152" height="720"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BVd-ps-mqk">
+                        <rect key="frame" x="117" y="340" width="127" height="41"/>
+                        <buttonCell key="cell" type="bevel" title="Away + 3" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Frk-FI-nlL">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system" size="20"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="awayPlusSix:" target="Voe-Tx-rLC" id="Ln9-rU-IjB"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x1B-SU-aX4">
+                        <rect key="frame" x="117" y="296" width="127" height="41"/>
+                        <buttonCell key="cell" type="bevel" title="Away + 2" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Zh9-qt-Xfn">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system" size="20"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="awayPlusThree:" target="Voe-Tx-rLC" id="2Jj-Ha-tQE"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WBH-EY-lbg">
+                        <rect key="frame" x="117" y="252" width="127" height="41"/>
+                        <buttonCell key="cell" type="bevel" title="Away + 1" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="E3w-3c-r1t">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system" size="20"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="awayPlusOne:" target="Voe-Tx-rLC" id="Wen-Yd-oGo"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OlJ-bE-Mb0">
+                        <rect key="frame" x="117" y="208" width="127" height="41"/>
+                        <buttonCell key="cell" type="bevel" title="Away - 1" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="gKn-R5-DpA">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system" size="20"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="awayMinusOne:" target="Voe-Tx-rLC" id="EwK-LQ-jJA"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iql-w0-n1F">
+                        <rect key="frame" x="503" y="252" width="140" height="41"/>
+                        <buttonCell key="cell" type="bevel" title="Reset Clock" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ywT-yw-ZI5">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system" size="20"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="resetClock:" target="Voe-Tx-rLC" id="XgD-Ws-fYk"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BRW-g9-0xv">
+                        <rect key="frame" x="503" y="208" width="140" height="41"/>
+                        <buttonCell key="cell" type="bevel" title="Start/Stop" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Vkk-Nx-7i7">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system" size="20"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="startClock:" target="Voe-Tx-rLC" id="y4n-E7-JOf"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jHd-mK-vBC">
+                        <rect key="frame" x="909" y="340" width="127" height="41"/>
+                        <buttonCell key="cell" type="bevel" title="Home + 3" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="QDU-gC-hRj">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system" size="20"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="homePlusSix:" target="Voe-Tx-rLC" id="Fae-l3-3bR"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eQ2-Mz-LEZ">
+                        <rect key="frame" x="909" y="296" width="127" height="41"/>
+                        <buttonCell key="cell" type="bevel" title="Home + 2" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="BGZ-on-WBj">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system" size="20"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="homePlusThree:" target="Voe-Tx-rLC" id="U03-8K-xkE"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hur-ON-A99">
+                        <rect key="frame" x="909" y="252" width="127" height="41"/>
+                        <buttonCell key="cell" type="bevel" title="Home + 1" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ITA-cU-ZTC">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system" size="20"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="homePlusOne:" target="Voe-Tx-rLC" id="oeq-sN-Su7"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1tl-4N-jYT">
+                        <rect key="frame" x="909" y="208" width="127" height="41"/>
+                        <buttonCell key="cell" type="bevel" title="Home - 1" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="99H-jS-XbM">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system" size="20"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="homeMinusOne:" target="Voe-Tx-rLC" id="Gai-kN-D6C"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o1Q-Op-CPi">
+                        <rect key="frame" x="683" y="252" width="147" height="41"/>
+                        <buttonCell key="cell" type="bevel" title="+10 seconds" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="3Be-BW-fQl">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system" size="20"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="plusTenSeconds:" target="Voe-Tx-rLC" id="Tc6-pL-eK2"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LMV-SE-W0b">
+                        <rect key="frame" x="683" y="208" width="147" height="41"/>
+                        <buttonCell key="cell" type="bevel" title="+1 minute" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="doM-vb-KmZ">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system" size="20"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="plusOneMinute:" target="Voe-Tx-rLC" id="tiK-YS-2J1"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z2q-AN-sl1">
+                        <rect key="frame" x="683" y="296" width="147" height="41"/>
+                        <buttonCell key="cell" type="bevel" title="+1 second" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="xpq-Yb-M6e">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system" size="20"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="plusOneSecond:" target="Voe-Tx-rLC" id="uBY-PO-AKn"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dXN-hI-B6c">
+                        <rect key="frame" x="317" y="252" width="147" height="41"/>
+                        <buttonCell key="cell" type="bevel" title="-10 seconds" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="zYI-sC-sMa">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system" size="20"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="minusTenSeconds:" target="Voe-Tx-rLC" id="6vD-JY-WoJ"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IIk-sh-Nok">
+                        <rect key="frame" x="317" y="208" width="147" height="41"/>
+                        <buttonCell key="cell" type="bevel" title="-1 minute" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="lq9-wS-xoF">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system" size="20"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="minusOneMinute:" target="Voe-Tx-rLC" id="W3f-o5-jPQ"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F26-Cr-2SO">
+                        <rect key="frame" x="498" y="296" width="150" height="41"/>
+                        <buttonCell key="cell" type="bevel" title="Show Replay" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="wcV-DN-LlU">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system" size="20"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="showReplay:" target="Voe-Tx-rLC" id="z2V-dd-mw7"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1KX-Zc-iL4">
+                        <rect key="frame" x="683" y="86" width="147" height="41"/>
+                        <buttonCell key="cell" type="bevel" title="+ Quarter" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="CJU-h9-Tgg">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system" size="20"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="plusQuarter:" target="Voe-Tx-rLC" id="x3J-tM-EUT"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QtR-Mt-sSd">
+                        <rect key="frame" x="317" y="86" width="147" height="41"/>
+                        <buttonCell key="cell" type="bevel" title="- Quarter" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="fzu-OR-soV">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system" size="20"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="minusQuarter:" target="Voe-Tx-rLC" id="ufD-Jl-zps"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UU6-xV-2fN">
+                        <rect key="frame" x="392" y="376" width="170" height="41"/>
+                        <buttonCell key="cell" type="bevel" title="Hide Scorebug" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="qSK-xW-hiA">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system" size="20"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="hideScorebug:" target="Voe-Tx-rLC" id="yTA-KB-LnU"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="23H-x4-ud2">
+                        <rect key="frame" x="317" y="296" width="147" height="41"/>
+                        <buttonCell key="cell" type="bevel" title="-1 second" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ueV-KE-pyh">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system" size="20"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="minusOneSecond:" target="Voe-Tx-rLC" id="JUi-MS-qXp"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c1x-UJ-wNf">
+                        <rect key="frame" x="597" y="376" width="153" height="41"/>
+                        <buttonCell key="cell" type="bevel" title="Hide Clock" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Muh-EC-ZBC">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system" size="20"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="hideClock:" target="Voe-Tx-rLC" id="QXw-r5-0eJ"/>
+                        </connections>
+                    </button>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kru-WF-Wc1">
+                        <rect key="frame" x="483" y="123" width="181" height="72"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Clock" id="Wpp-Iz-VPg">
+                            <font key="font" metaFont="system" size="40"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="McA-Ut-E7q">
+                        <rect key="frame" x="483" y="80" width="181" height="45"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Quarter" id="J22-Qn-iim">
+                            <font key="font" metaFont="system" size="25"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uv2-mo-f5h">
+                        <rect key="frame" x="862" y="100" width="221" height="95"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="hScore" id="bK7-s8-Mdf">
+                            <font key="font" metaFont="system" size="40"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MKP-mO-e61">
+                        <rect key="frame" x="231" y="646" width="118" height="40"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Timeout:" id="shR-GV-oe5">
+                            <font key="font" metaFont="system" size="25"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cMG-HQ-Ook">
+                        <rect key="frame" x="220" y="598" width="140" height="40"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Showing" id="3ZF-1m-tBb">
+                            <font key="font" metaFont="systemBold" size="25"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vm2-B7-kCk">
+                        <rect key="frame" x="375" y="646" width="118" height="40"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Foul:" id="cxG-qZ-aJH">
+                            <font key="font" metaFont="system" size="25"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QSd-Iv-4yr">
+                        <rect key="frame" x="364" y="598" width="140" height="40"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Showing" id="dNM-fQ-9jK">
+                            <font key="font" metaFont="systemBold" size="25"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hvM-uK-K6l">
+                        <rect key="frame" x="500" y="646" width="158" height="40"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Replay:" id="7hh-I1-Dxm">
+                            <font key="font" metaFont="system" size="25"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZPh-EL-WiV">
+                        <rect key="frame" x="510" y="598" width="139" height="40"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Showing" id="2s5-DO-4Vv">
+                            <font key="font" metaFont="systemBold" size="25"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TM0-Xx-6oU">
+                        <rect key="frame" x="673" y="646" width="118" height="40"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Clock:" id="7ru-5L-xl0">
+                            <font key="font" metaFont="system" size="25"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sow-VF-ka7">
+                        <rect key="frame" x="662" y="598" width="140" height="40"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Showing" id="fe6-b3-O97">
+                            <font key="font" metaFont="systemBold" size="25"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z6z-Gz-qsq">
+                        <rect key="frame" x="815" y="646" width="158" height="40"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Scorebug:" id="057-iH-fbW">
+                            <font key="font" metaFont="system" size="25"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HGn-1P-nd9">
+                        <rect key="frame" x="825" y="598" width="139" height="40"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Showing" id="KoB-yV-9F6">
+                            <font key="font" metaFont="systemBold" size="25"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tt8-2y-ueA">
+                        <rect key="frame" x="80" y="100" width="200" height="95"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="aScore" id="HIF-lq-Iw0">
+                            <font key="font" metaFont="system" size="40"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C5C-b6-B99">
+                        <rect key="frame" x="677" y="31" width="158" height="41"/>
+                        <buttonCell key="cell" type="bevel" title="Show Foul" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="aox-9N-9qa">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system" size="20"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="showFlag:" target="Voe-Tx-rLC" id="gey-VZ-PBR"/>
+                        </connections>
+                    </button>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="if8-Nk-enG">
+                        <rect key="frame" x="6" y="-43" width="273" height="113"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Designed by Andrew Shackelford                ©2015 Golden Dog Productions               All Rights Reserved" id="abA-Pl-6gR">
+                            <font key="font" size="15" name="HelveticaNeue"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D7Y-Pt-hNZ">
+                        <rect key="frame" x="400" y="519" width="132" height="40"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Locator:" id="YgE-54-WdJ">
+                            <font key="font" metaFont="system" size="25"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U2T-6h-JRa">
+                        <rect key="frame" x="392" y="482" width="140" height="40"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Hidden" id="Iqy-3B-FeH">
+                            <font key="font" metaFont="systemBold" size="25"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1j8-af-Tvn">
+                        <rect key="frame" x="590" y="519" width="160" height="40"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Scoreboard:" id="R9g-lT-pEZ">
+                            <font key="font" metaFont="system" size="25"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fZV-gi-omO">
+                        <rect key="frame" x="601" y="482" width="139" height="40"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Hidden" id="k04-pz-TeJ">
+                            <font key="font" metaFont="systemBold" size="25"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eQA-H8-fyC">
+                        <rect key="frame" x="378" y="444" width="169" height="41"/>
+                        <buttonCell key="cell" type="bevel" title="Show Locator" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ynX-n5-Hhx">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system" size="20"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="showLocator:" target="Voe-Tx-rLC" id="PRV-65-Srx"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4xq-m9-z3d">
+                        <rect key="frame" x="565" y="444" width="210" height="41"/>
+                        <buttonCell key="cell" type="bevel" title="Show Scoreboard" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="rxZ-SC-p8H">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system" size="20"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="showScoreboard:" target="Voe-Tx-rLC" id="Q8h-oy-ozg"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WqW-EM-aPU">
+                        <rect key="frame" x="292" y="31" width="197" height="41"/>
+                        <buttonCell key="cell" type="bevel" title="Show Timeout" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="gkP-ln-Uwj">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system" size="20"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="showTimeout:" target="Voe-Tx-rLC" id="6V4-Jn-BVA"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <point key="canvasLocation" x="762" y="549"/>
+        </window>
+        <window title="WCAT Basketball Scorebug - Display" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" animationBehavior="default" id="MbN-zX-JXX">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowCollectionBehavior key="collectionBehavior" fullScreenPrimary="YES"/>
+            <rect key="contentRect" x="283" y="305" width="1920" height="1080"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
+            <value key="minSize" type="size" width="1920" height="1080"/>
+            <value key="maxSize" type="size" width="1920" height="1080"/>
+            <view key="contentView" id="N1D-iC-c6a">
+                <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <colorWell fixedFrame="YES" bordered="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yit-Ao-IwS" userLabel="black background">
+                        <rect key="frame" x="-40" y="-460" width="2000" height="2000"/>
+                        <color key="color" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </colorWell>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mLW-Tq-zWR" userLabel="scoreboard background">
+                        <rect key="frame" x="480" y="-90" width="960" height="1300"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Scoreboard" id="mM8-wG-cjz"/>
+                    </imageView>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oxf-ae-5Cj" userLabel="full screen button">
+                        <rect key="frame" x="50" y="750" width="421" height="279"/>
+                        <buttonCell key="cell" type="bevel" title="Enter Full Screen" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="EU4-Zj-ang">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system" size="35"/>
+                            <connections>
+                                <action selector="displayEnterFullScreen:" target="Voe-Tx-rLC" id="VqB-P2-yhg"/>
+                            </connections>
+                        </buttonCell>
+                    </button>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="55h-2X-VhE">
+                        <rect key="frame" x="545" y="70" width="852" height="45"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageAlignment="bottom" imageScaling="axesIndependently" image="bball_scorebug_opt_text" id="d0c-Zz-hyx"/>
+                    </imageView>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nip-Kn-Qyw" userLabel="scorebug background">
+                        <rect key="frame" x="293" y="25" width="1333" height="46"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="bball_scorebug" id="dA2-eX-gGd"/>
+                    </imageView>
+                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wjG-pJ-Rla">
+                        <rect key="frame" x="0.0" y="-190" width="1920" height="1080"/>
+                        <subviews>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9G2-5d-H3e">
+                                <rect key="frame" x="546" y="257" width="850" height="42"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" state="on" alignment="center" title="Optional Text" id="GqC-tO-JD1">
+                                    <font key="font" size="35" name="AdobeHeitiStd-Regular"/>
+                                    <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RgH-wS-gsl">
+                                <rect key="frame" x="546" y="195" width="271" height="60"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Away Name" id="Ggm-MO-XAM">
+                                    <font key="font" size="35" name="AdobeHeitiStd-Regular"/>
+                                    <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7rd-UB-CdE">
+                                <rect key="frame" x="500" y="300" width="275" height="60"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Away Seed" id="bt0-dZ-HG9">
+                                    <font key="font" size="20" name="AdobeHeitiStd-Regular"/>
+                                    <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X3Y-DM-RB4">
+                                <rect key="frame" x="800" y="300" width="275" height="60"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Home Seed" id="f95-ae-akL">
+                                    <font key="font" size="20" name="AdobeHeitiStd-Regular"/>
+                                    <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sn3-4c-B8R">
+                                <rect key="frame" x="816" y="195" width="77" height="60"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Away Score" id="hQX-Tk-VI0">
+                                    <font key="font" size="35" name="AdobeHeitiStd-Regular"/>
+                                    <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pjf-xE-qSS">
+                                <rect key="frame" x="893" y="195" width="272" height="60"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Home Name" id="TuA-nT-28z">
+                                    <font key="font" size="35" name="AdobeHeitiStd-Regular"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gyd-fI-Hc0">
+                                <rect key="frame" x="1164" y="195" width="73" height="60"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Home Score" id="oDQ-uh-jux">
+                                    <font key="font" size="35" name="AdobeHeitiStd-Regular"/>
+                                    <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w9c-l0-rZa">
+                                <rect key="frame" x="562" y="745" width="603" height="110"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="Away Name" id="zKL-9U-4vS">
+                                    <font key="font" size="80" name="AdobeHeitiStd-Regular"/>
+                                    <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bSJ-f5-qpO">
+                                <rect key="frame" x="1168" y="745" width="223" height="110"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Away Score" id="4Gb-gB-j4B">
+                                    <font key="font" size="80" name="AdobeHeitiStd-Regular"/>
+                                    <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GhB-69-ZB1">
+                                <rect key="frame" x="562" y="613" width="603" height="110"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="Home Name" id="5MF-BU-Ury">
+                                    <font key="font" size="80" name="AdobeHeitiStd-Regular"/>
+                                    <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zj7-XA-GHr">
+                                <rect key="frame" x="1168" y="613" width="223" height="110"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Home Score" id="yJP-C1-zjg">
+                                    <font key="font" size="80" name="AdobeHeitiStd-Regular"/>
+                                    <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tYJ-wf-Qyj">
+                                <rect key="frame" x="1235" y="195" width="162" height="60"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Quarter" id="HLV-ck-pFo">
+                                    <font key="font" size="35" name="AdobeHeitiStd-Regular"/>
+                                    <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d2b-KT-3GH">
+                                <rect key="frame" x="1394" y="195" width="137" height="60"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Clock" id="0Om-E0-mey">
+                                    <font key="font" size="35" name="AdobeHeitiStd-Regular"/>
+                                    <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="787-t7-dbp">
+                                <rect key="frame" x="534" y="500" width="857" height="94"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Quarter" id="YZO-Gi-Vlt">
+                                    <font key="font" size="80" name="AdobeHeitiStd-Regular"/>
+                                    <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jJV-fj-6Ew">
+                                <rect key="frame" x="534" y="508" width="857" height="94"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Location" id="q3g-Xz-bKD">
+                                    <font key="font" size="45" name="AdobeHeitiStd-Regular"/>
+                                    <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yob-62-boV">
+                                <rect key="frame" x="545" y="718" width="366" height="84"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="Away Seed" id="A82-KK-iR0">
+                                    <font key="font" size="30" name="AdobeHeitiStd-Regular"/>
+                                    <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jM2-IS-MUr">
+                                <rect key="frame" x="534" y="454" width="857" height="94"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Date" id="WA7-VG-9iv">
+                                    <font key="font" size="45" name="AdobeHeitiStd-Regular"/>
+                                    <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ubY-aG-Fqg">
+                                <rect key="frame" x="545" y="583" width="366" height="84"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="Home Seed" id="blE-4m-CXf">
+                                    <font key="font" size="30" name="AdobeHeitiStd-Regular"/>
+                                    <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                    </customView>
+                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Efl-aR-wod">
+                        <rect key="frame" x="-1" y="-1" width="1922" height="150"/>
+                        <subviews>
+                            <colorWell hidden="YES" fixedFrame="YES" bordered="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5AC-kc-lua">
+                                <rect key="frame" x="0.0" y="-1" width="1922" height="152"/>
+                                <color key="color" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </colorWell>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SkK-3N-VJu">
+                                <rect key="frame" x="1239" y="26" width="156" height="45"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="axesIndependently" image="timeout.001" id="KnA-PA-voL"/>
+                            </imageView>
+                        </subviews>
+                    </customView>
+                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3DN-dm-bsn">
+                        <rect key="frame" x="0.0" y="150" width="1920" height="930"/>
+                        <subviews>
+                            <avPlayerView fixedFrame="YES" controlsStyle="none" translatesAutoresizingMaskIntoConstraints="NO" id="Jvl-Cd-dtw">
+                                <rect key="frame" x="0.0" y="-150" width="1920" height="1080"/>
+                            </avPlayerView>
+                            <avPlayerView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="16O-9t-k3m">
+                                <rect key="frame" x="0.0" y="-150" width="1920" height="1080"/>
+                            </avPlayerView>
+                        </subviews>
+                    </customView>
+                </subviews>
+            </view>
+            <point key="canvasLocation" x="1067" y="1548"/>
+        </window>
+        <window title="Instructions - Set-up" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hidesOnDeactivate="YES" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="MNx-kr-MPe" customClass="NSPanel">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" utility="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="120" y="64" width="276" height="186"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
+            <value key="minSize" type="size" width="276" height="186"/>
+            <value key="maxSize" type="size" width="276" height="186"/>
+            <view key="contentView" id="1sJ-ut-xex">
+                <rect key="frame" x="0.0" y="0.0" width="276" height="186"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <scrollView fixedFrame="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6y-Vx-FBd">
+                        <rect key="frame" x="-1" y="-1" width="278" height="188"/>
+                        <clipView key="contentView" ambiguous="YES" id="cz0-aS-Ta4">
+                            <rect key="frame" x="1" y="1" width="261" height="186"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <textView ambiguous="YES" editable="NO" selectable="NO" importsGraphics="NO" baseWritingDirection="leftToRight" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="jpJ-fB-RMG">
+                                    <rect key="frame" x="0.0" y="0.0" width="261" height="186"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <size key="minSize" width="261" height="186"/>
+                                    <size key="maxSize" width="463" height="10000000"/>
+                                    <attributedString key="textStorage">
+                                        <fragment>
+                                            <mutableString key="content">This application requires two monitors, including one with a resolution of 1920x1080 (1080p). Upon first launch, enter in the Away Name, Away Record, Away Seed (if desired), Home Name, Home Record, Home Seed (if desired) and Location. Then, drag the “Display” window (a black screen with a large “Enter Full Screen” button) over to the switcher or desired output monitor with 1080p resolution. Click the “Enter Full Screen” button, and then move the mouse cursor back over to the main screen with the “Control” window. If available, plug in a labeled keyboard for easier operation.</mutableString>
+                                            <attributes>
+                                                <font key="NSFont" size="12" name="Helvetica"/>
+                                                <real key="NSKern" value="0.0"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0"/>
+                                                <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <size key="minSize" width="261" height="186"/>
+                                    <size key="maxSize" width="463" height="10000000"/>
+                                </textView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </clipView>
+                        <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="Edd-va-qXc">
+                            <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </scroller>
+                        <scroller key="verticalScroller" verticalHuggingPriority="750" horizontal="NO" id="irV-b4-rL4">
+                            <rect key="frame" x="262" y="1" width="15" height="186"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </scroller>
+                    </scrollView>
+                </subviews>
+            </view>
+            <point key="canvasLocation" x="2354" y="2248"/>
+        </window>
+        <window title="Instructions - Operation" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hidesOnDeactivate="YES" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="ltf-hQ-17a" customClass="NSPanel">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" utility="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="120" y="64" width="276" height="382"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
+            <value key="minSize" type="size" width="276" height="382"/>
+            <value key="maxSize" type="size" width="276" height="382"/>
+            <view key="contentView" id="Dfo-UG-kBy">
+                <rect key="frame" x="0.0" y="0.0" width="276" height="382"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <scrollView fixedFrame="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D3g-K2-GXo">
+                        <rect key="frame" x="-1" y="0.0" width="278" height="383"/>
+                        <clipView key="contentView" ambiguous="YES" id="WLK-C9-Fum">
+                            <rect key="frame" x="1" y="1" width="261" height="381"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <textView ambiguous="YES" editable="NO" selectable="NO" importsGraphics="NO" baseWritingDirection="leftToRight" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="buD-cN-qrm">
+                                    <rect key="frame" x="0.0" y="0.0" width="261" height="381"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <size key="minSize" width="261" height="381"/>
+                                    <size key="maxSize" width="463" height="10000000"/>
+                                    <attributedString key="textStorage">
+                                        <fragment>
+                                            <mutableString key="content">While all the buttons may look daunting at first, they’re actually very simple. If possible, plug in a labeled keyboard for easier operation. To help you keep track of what’s going on, there are bold labels that will change colors based on the status of the scorebug. When the scorebug isn’t in the default state, labels will change colors. For instance, if the flag is showing, the flag label will change to “Showing” in red font. Similarly, when the Locator or the Scoreboard are showing, the text will change red to draw your attention. It is important to keep in mind that when hiding the scorebug, scoreboard, and locator, the previously showing format won’t reappear. For example, if the scorebug was showing, and you clicked “Show Locator”, the scorebug would disappear and the locator would appear. However, if you then clicked “Hide Locator”, the scorebug would not re-appear. To make the scorebug reappear, you would need to click “Show Scorebug”. This behavior is intentional - it makes it possible to have the locator, scorebug, and scoreboard all hidden at the same time. The one exception to this is replay - the replay graphic will only be shown on top of the scorebug and will be shown and hidden often, thus the different behavior. Otherwise, the rest is self explanatory.</mutableString>
+                                            <attributes>
+                                                <font key="NSFont" size="12" name="Helvetica"/>
+                                                <real key="NSKern" value="0.0"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <size key="minSize" width="261" height="381"/>
+                                    <size key="maxSize" width="463" height="10000000"/>
+                                </textView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </clipView>
+                        <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="FVI-Cp-fXR">
+                            <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </scroller>
+                        <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="0.085034013605442174" horizontal="NO" id="qIF-Qq-IkK">
+                            <rect key="frame" x="262" y="1" width="15" height="381"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </scroller>
+                    </scrollView>
+                </subviews>
+            </view>
+            <point key="canvasLocation" x="2347" y="2690.5"/>
+        </window>
+        <window title="About Basketball Scorebug" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" hidesOnDeactivate="YES" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="FM9-HU-l6u" customClass="NSPanel">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" utility="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="120" y="64" width="276" height="81"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
+            <view key="contentView" id="i54-zx-VW9">
+                <rect key="frame" x="0.0" y="0.0" width="276" height="81"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8py-M5-ux3">
+                        <rect key="frame" x="7" y="6" width="262" height="57"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Designed by Andrew Shackelford         Copyright 2015 Golden Dog Productions" id="yDz-hR-GKJ">
+                            <font key="font" size="13" name="HelveticaNeue"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                </subviews>
+            </view>
+            <point key="canvasLocation" x="2686" y="2084.5"/>
+        </window>
+        <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" id="wIm-b4-bNO">
+            <rect key="frame" x="0.0" y="0.0" width="278" height="384"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <clipView key="contentView" id="ZBp-4C-odc">
+                <rect key="frame" x="1" y="1" width="276" height="367"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <textView editable="NO" selectable="NO" importsGraphics="NO" baseWritingDirection="leftToRight" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="hlc-4n-aB8">
+                        <rect key="frame" x="0.0" y="0.0" width="276" height="382"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <size key="minSize" width="261" height="382"/>
+                        <size key="maxSize" width="463" height="10000000"/>
+                        <attributedString key="textStorage">
+                            <fragment>
+                                <mutableString key="content">While all the buttons may look daunting at first, they’re actually very simple. If possible, plug in a labeled keyboard for easier operation. To help you keep track of what’s going on, there are bold labels that will change colors based on the status of the scorebug. When the scorebug isn’t in the default state, labels will change colors. For instance, if the flag is showing, the flag label will change to “Showing” in red font. Similarly, when the Locator or the Scoreboard are showing, the text will change red to draw your attention. It is important to keep in mind that when hiding the scorebug, scoreboard, and locator, the previously showing format won’t reappear. For example, if the scorebug was showing, and you clicked “Show Locator”, the scorebug would disappear and the locator would appear. However, if you then clicked “Hide Locator”, the scorebug would not re-appear. To make the scorebug reappear, you would need to click “Show Scorebug”. This behavior is intentional - it makes it possible to have the locator, scorebug, and scoreboard all hidden at the same time. The one exception to this is replay - the replay graphic will only be shown on top of the scorebug and will be shown and hidden often, thus the different behavior. Otherwise, the rest is self explanatory.
+</mutableString>
+                                <attributes>
+                                    <font key="NSFont" size="12" name="Helvetica"/>
+                                    <real key="NSKern" value="0.0"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0"/>
+                                    <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <size key="minSize" width="261" height="382"/>
+                        <size key="maxSize" width="463" height="10000000"/>
+                    </textView>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            </clipView>
+            <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="SBN-dN-pmx">
+                <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                <autoresizingMask key="autoresizingMask"/>
+            </scroller>
+            <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="R6J-a9-q0U">
+                <rect key="frame" x="262" y="1" width="15" height="382"/>
+                <autoresizingMask key="autoresizingMask"/>
+            </scroller>
+            <point key="canvasLocation" x="2794" y="2733"/>
+        </scrollView>
+    </objects>
+    <resources>
+        <image name="Scoreboard" width="1288.0799560546875" height="837.1199951171875"/>
+        <image name="bball_scorebug" width="1608.719970703125" height="64.800003051757812"/>
+        <image name="bball_scorebug_opt_text" width="1201.43994140625" height="63.599998474121094"/>
+        <image name="timeout.001" width="1540" height="450"/>
+    </resources>
+</document>
